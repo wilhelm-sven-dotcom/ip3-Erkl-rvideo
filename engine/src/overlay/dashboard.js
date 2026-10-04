@@ -514,7 +514,7 @@ export class Dashboard {
     const tgt = planTarget || { x: 160, y: 340, w: 1600, h: 400 };
     const B = { x: lerp(box0.x, tgt.x, g), y: lerp(box0.y, tgt.y, g), w: lerp(box0.w, tgt.w, g), h: lerp(box0.h, tgt.h, g) };
     Object.assign(this.planHolder.style, { left: B.x + 'px', top: B.y + 'px', width: B.w + 'px', height: B.h + 'px' });
-    this.planHolder.style.opacity = String(prog(65.5, 65.9, t) * (1 - prog(71.35, 71.85, t)));
+    this.planHolder.style.opacity = String(prog(65.5, 65.9, t) * (1 - prog(70.85, 71.3, t)));
   }
 }
 

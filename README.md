@@ -6,14 +6,14 @@
 
 | Datei | Inhalt |
 |---|---|
-| `output/ip3_Erklaervideo_16x9.mp4` | Film 1920 × 1080, 30 fps, mit Layout-Sprecher, Musik und Effekten, Untertitel als zuschaltbare Spur |
+| `output/ip3_Erklaervideo_16x9.mp4` | Film 1920 × 1080, 30 fps, mit Sprecher (ElevenLabs), Layout-Musik und Effekten, Untertitel als zuschaltbare Spur |
 | `output/ip3_Erklaervideo_16x9_UT.mp4` | dieselbe Fassung mit eingebrannten Untertiteln (für stumme Wiedergabe, Social Media, Messen) |
 | `output/ip3_Erklaervideo_DE.srt`, `.vtt` | Untertitel für YouTube und Website |
 | `output/audio/` | Stems (Sprecher, Musik, Effekte), Mischung, Mischung ohne Sprecher |
 | `docs/Produktionsvorlage.md` | Leitmotiv, Sprechertext, Storyboard, Produktionsanweisungen und Prompts, Assetliste, 9:16-Hinweise, Beispieldaten |
 | `docs/storyboard/` | Standbilder je Storyboard-Einstellung |
 
-Der Film ist vollständig produziert. Stimme (synthetisch, Thorsten-Voice CC0) und Musik (selbst synthetisiert) sind Layout-Fassungen und sollten vor der Veröffentlichung durch Profiaufnahmen ersetzt werden. Alle Zahlen sind Beispieldaten, das Dashboard ist eine schematische Nachbildung; beides ist im Bild gekennzeichnet.
+Der Film ist vollständig produziert. Die Stimme stammt aus ElevenLabs (Alexander, Deep TV Narrator, eleven_multilingual_v2; Nutzungsrechte gemäß ElevenLabs-Abo prüfen). Die frühere Thorsten-Layoutstimme liegt in audio/vo_layout/. Die Musik ist eine selbst synthetisierte Layout-Fassung. Außenbilder in Eröffnung, Speicher-Szenario und Schluss sind KI-generierte Fotoplatten (engine/assets/photos/, im Bild als Symbolbild gekennzeichnet). Alle Zahlen sind Beispieldaten, das Dashboard ist eine schematische Nachbildung; beides ist im Bild gekennzeichnet.
 
 ## Aufbau des Projekts
 

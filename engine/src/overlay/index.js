@@ -4,12 +4,14 @@ import { Hud } from './hud.js';
 import { Schematic } from './schematic.js';
 import { Dashboard } from './dashboard.js';
 import { EndCard } from './endcard.js';
+import { Photos } from './photos.js';
 
 // Alle 2D-Ebenen in fester Stapelreihenfolge.
 
 export class Overlay {
   constructor(root) {
     this.root = root;
+    this.photos = new Photos(root);
     this.schematic = new Schematic(root);
     this.dash = new Dashboard(root);
     this.hud = new Hud(root);
@@ -18,7 +20,7 @@ export class Overlay {
     Object.assign(b.style, { left: 0, top: 0, width: '0', height: '0' });
     this.bessLine = el('div', 'abs', b); Object.assign(this.bessLine.style, { width: '1.5px', background: 'rgba(255,255,255,0.85)', left: 0, top: 0 });
     this.bessDot = el('div', 'abs', b); Object.assign(this.bessDot.style, { width: '12px', height: '12px', borderRadius: '50%', background: C.akzent, left: 0, top: 0 });
-    this.bessText = el('div', 'abs', b, `<div style="font-family:var(--zahl);font-weight:500;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:${C.akzent}">Planungsszenario</div><div style="font-family:var(--head);font-weight:800;font-size:30px;letter-spacing:-.01em;color:#fff;margin-top:4px">Graustromspeicher</div><div style="font-family:var(--zahl);font-weight:500;font-size:14px;color:rgba(232,231,239,.75);margin-top:6px">schematisch · Lage und Größe beispielhaft</div>`);
+    this.bessText = el('div', 'abs', b, `<div style="font-family:var(--zahl);font-weight:500;font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:${C.akzent}">Planungsszenario</div><div style="font-family:var(--head);font-weight:800;font-size:30px;letter-spacing:-.01em;color:#fff;margin-top:4px">Speicher</div><div style="font-family:var(--zahl);font-weight:500;font-size:14px;color:rgba(232,231,239,.75);margin-top:6px">schematisch · Lage und Größe beispielhaft</div>`);
     Object.assign(this.bessText.style, { whiteSpace: 'nowrap', padding: '14px 18px', background: 'rgba(12,26,61,0.72)', border: '1px solid rgba(255,255,255,0.16)', borderRadius: '10px' });
     this.headlines = new Headlines(root);
     this.end = new EndCard(root);
@@ -29,6 +31,8 @@ export class Overlay {
   }
 
   update(t, info) {
+    const ph = this.photos.update(t);
+    if (ph.bessScreen) info = { ...info, bessScreen: ph.bessScreen };
     this.hud.update(t);
     this.schematic.update(t, info);
     this.dash.update(t, info && info.planRect);

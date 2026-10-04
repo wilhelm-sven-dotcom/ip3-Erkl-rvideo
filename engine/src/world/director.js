@@ -32,7 +32,7 @@ export class Director {
 
   // Liefert true, wenn zu diesem Zeitpunkt 3D gerendert werden muss
   active(t) {
-    return (t >= 0 && t < 15.05) || (t >= 70.55 && t < 85.2);
+    return t >= 8.3 && t < 15.05; // übrige Außenbilder: Fotoplatten (overlay/photos.js)
   }
 
   // Kamera für Zeitpunkt t setzen (ohne Rendern)

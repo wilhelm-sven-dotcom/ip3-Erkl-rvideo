@@ -3,7 +3,7 @@
 Produktionsvorlage für ein 90-Sekunden-Werbe- und Erklärvideo der ip³ Energietechnik GmbH.
 Hauptformat 16:9 (1920 × 1080, 30 fps), deutsch, Sie-Form, mit Untertiteln auch ohne Ton verständlich.
 
-Zu dieser Vorlage gehört ein fertig gerenderter Film (`output/`). Er ist eine vollständige Fassung mit synthetischer Layout-Stimme und selbst erzeugter Layout-Musik. Bild, Timing, Texte und Untertitel sind final abstimmbar. Für die Veröffentlichung sollten Sprecher und gegebenenfalls Musik durch Profiaufnahmen ersetzt werden (Abschnitt 6).
+Zu dieser Vorlage gehört ein fertig gerenderter Film (`output/`). Er ist eine vollständige Fassung mit ElevenLabs-Stimme, KI-generierten Fotoplatten als Außenbildern und selbst erzeugter Layout-Musik. Bild, Timing, Texte und Untertitel sind final abstimmbar. Vor der Veröffentlichung sind die Musik zu ersetzen und die Nutzungsrechte von Stimme und Bildern zu prüfen (Abschnitt 6).
 
 Inhalt
 
@@ -95,7 +95,7 @@ Zeitcodes in mm:ss,z. Alle nachgebildeten Oberflächen tragen oben rechts „Sch
 | 00:59,4–01:05,0 | „Abweichungen werden sichtbar. Und Sie haben die Nachweise, um mögliche Ausgleichsansprüche zu prüfen.“ | Zeile Ausfallenergie rot umrandet: abgerechnet 31,2 MWh, berechnet 35,7 MWh, Abweichung 4,5 MWh. Nachweisdokument (PDF, Abregelungszeiträume und Mengen) erscheint und wandert verkleinert in die Unterlagen der Anlagenakte. Keine Rückzahlung, keine automatische Rechnung. | „Abweichungen erkennen. Nachweise bereitstellen.“, Fußnote zum Ausgleich | Beleg fliegt in die Anlagenakte |
 | 01:05,0–01:10,5 | „Auf Wunsch übernehmen wir auch die technische Betriebsführung. Und wir beraten Sie persönlich.“ | Reiter „Anlage“: Lageplan, Stammdaten, Unterlagen (Nachweis als „neu“), Betrieb mit Betriebsführung ip³ und persönlichem Ansprechpartner. | Kicker „Betriebsführung“, „Technische Betriebsführung.“, „Stammdaten, Unterlagen und Betriebsinformationen an einem Ort.“, „Persönlich betreut durch ip³.“ | – |
 | 01:10,4–01:15,8 | „Passt Ihre Direktvermarktung zur Anlage? Gibt es Verbesserungspotenzial?“ | Der Lageplan wächst auf Vollbild und geht deckungsgleich in den 3D-Draufblick über. Die Kamera kippt in ein Schrägluftbild bei warmem Nachmittagslicht. | Kicker „Beratung“, „Vermarktung bewerten.“ | Match-Cut Lageplan zu Luftbild |
-| 01:16,0–01:20,0 | „Könnte sich ein zusätzlicher Speicher rechnen? Das prüfen wir individuell.“ | Neben der Station baut sich ein Batteriespeicher als transparentes Planungsszenario auf: weiße Kanten, kaum sichtbare Flächen, rot gestrichelte Aufstellfläche. | „Speicherpotenzial prüfen.“, Label „Planungsszenario · Graustromspeicher · schematisch, Lage und Größe beispielhaft“, „Individuelle Wirtschaftlichkeitsprüfung.“ | – |
+| 01:16,0–01:20,0 | „Könnte sich ein zusätzlicher Speicher rechnen? Das prüfen wir individuell.“ | Neben der Station baut sich ein Batteriespeicher als transparentes Planungsszenario auf: weiße Kanten, kaum sichtbare Flächen, rot gestrichelte Aufstellfläche. | „Speicherpotenzial prüfen.“, Label „Planungsszenario · Speicher · schematisch, Lage und Größe beispielhaft“, „Individuelle Wirtschaftlichkeitsprüfung.“ | – |
 | 01:20,0–01:25,0 | „Verstehen, was Ihre Anlage leistet. Erkennen, was in ihr steckt.“ | Kran nach oben, Blick über den Park zum Horizont. Eine weiße Linie zeichnet die Tageskurve der möglichen Erzeugung über den Himmel, an ihrer Spitze läuft der rote Punkt. | Abschlussbotschaft zweizeilig | – |
 | 01:25,0–01:30,0 | „Lassen Sie uns Ihren Solarpark genauer ansehen.“ | Bild blendet nach Navy, der Punkt wird zum Sonnenpunkt des Zeichens 3 (Originaldatei, rechts angeschnitten). Wortmarke weiß, Claim, Handlungsaufforderung, Website mit rotem CTA-Strich, Kontaktzeile. | „Energie hoch drei.“, „Lassen Sie uns Ihren Solarpark genauer ansehen.“, „www.ip3-energie.de“ | Abblende nach Navy, Punkt als Bindeglied |
 
@@ -192,13 +192,14 @@ Navy-Fläche. Zeichen 3 (Datei `zeichen-3-kontur-akzent.png`) mit 120 % Bildhöh
 4. **Drohnenaufnahmen eines eigenen Freiflächenparks** mit schriftlicher Freigabe des Eigentümers, ohne erkennbare Namen oder Schilder (optional als Ersatz für die 3D-Luftbilder).
 5. **Professionelle Sprachaufnahme** nach dem Text in Abschnitt 2, WAV 48 kHz / 24 bit, auf das Timing der Layout-Stimme geschnitten.
 6. **Musiklizenz** für einen finalen Titel (96 BPM, ruhig, elektronisch, Auflösung zum Schluss) oder Freigabe der mitgelieferten Layout-Musik.
-7. **Fachliche Freigabe** der Begriffe und Beispielwerte: „Vermarktungsbedingte Abregelung“, „Redispatch-Maßnahme“, „Ausfallenergie“, „Graustromspeicher“, Monatswerte der Abrechnungsprüfung, Wortlaut der Fußnote zum Ausgleich.
+7. **Fachliche Freigabe** der Begriffe und Beispielwerte: „Vermarktungsbedingte Abregelung“, „Redispatch-Maßnahme“, „Ausfallenergie“, Monatswerte der Abrechnungsprüfung, Wortlaut der Fußnote zum Ausgleich.
 8. **Optional:** Foto des Betriebsführungsteams oder eines Ansprechpartners für die Aussage „Persönlich betreut durch ip³“.
 9. **Bestätigung der Logodateien:** verwendet wurden Wortmarke weiß (SVG), Bildmarke weiß (SVG) und Zeichen 3 Kontur Akzent (PNG) aus dem ip³-Markenpaket.
 
 ## 6. Ton, Sprecher, Untertitel
 
-* **Layout-Stimme:** synthetisch (Thorsten-Voice, Lizenz CC0), je Satz mehrfach erzeugt und per Spracherkennung auf Verständlichkeit geprüft. Sie dient als Timing-Vorlage, nicht als Endfassung.
+* **Stimme:** ElevenLabs, Alexander (Deep TV Narrator), Modell eleven_multilingual_v2, Tempo 0,95, satzweise erzeugt (audio/elevenlabs_saetze.mjs), auf Sprechanteil geschnitten und in engine/src/cues.json eingetaktet. Die Thorsten-Layoutstimme (CC0) liegt als Rückfallebene in audio/vo_layout/.
+* **Fotoplatten:** Eröffnung (0 bis 9 s), Speicher-Szenario (71 bis 81 s) und Schlussbild (80 bis 85 s) nutzen KI-generierte Landschaftsbilder, gekennzeichnet als „Symbolbild“. Der Speicher wird als Strichmodell auf die Schotterfläche gezeichnet und ist als schematisch, Lage und Größe beispielhaft beschriftet.
 * **Layout-Musik:** selbst synthetisiert, 96 BPM (ein Takt = 2,5 s, 36 Takte), d-Moll mit Auflösung nach F-Dur im Abbinder. Szenenwechsel liegen auf Taktgrenzen (10,0 / 22,5 / 37,5 / 52,5 / 65,0 / 80,0 s). Unter der Stimme wird die Musik um 8 dB abgesenkt.
 * **Soundeffekte:** zurückhaltend, an Datenbewegungen gekoppelt (Punkt zündet 00:10,9, Ankunft Station 00:14,0, Geräte 00:15,2 bis 00:18,0, Eingriffe 00:25,4 und 00:28,7, Prüfhaken, Abweichung 00:58,4, Abbinder 01:25,0).
 * **Pegel:** Mischung −16 LUFS integriert, True Peak unter −1 dBTP. Stems für Sprecher, Musik und Effekte liegen getrennt vor; ein Austausch der Stimme ist ohne neuen Bildschnitt möglich.
