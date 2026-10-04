@@ -70,7 +70,9 @@ Formulierungen zu Ausgleich und Erstattung sind bewusst vorsichtig: „mögliche
 
 ## 3. Storyboard
 
-Zeitcodes in mm:ss,z. Alle nachgebildeten Oberflächen tragen oben rechts „Schematische Darstellung · Beispieldaten“.
+Zeitcodes in mm:ss,z. Alle nachgebildeten Oberflächen tragen oben rechts „Schematische Darstellung · Beispieldaten“. Standbilder aus dem gerenderten Film liegen in `docs/storyboard/` (eine Datei je Einstellung).
+
+![Storyboard-Übersicht](storyboard/uebersicht.jpg)
 
 | Zeit | Sprechertext | Bildhandlung | Einblendung | Übergang |
 |---|---|---|---|---|
@@ -128,7 +130,7 @@ Empfohlen ist eine echte 3D-Umsetzung (Blender, Cinema 4D oder Unreal), weil die
 | 00:00–00:07,6 | Luftbild Süd-Südost, Ziel Parkmitte bis Südostecke | 38–40° vertikal (ca. 32 mm KB) | Vorwärtsflug von 210 auf 130 m Abstand, Elevation 13° auf 18° |
 | 00:07,6–00:10,8 | Sturzflug auf Modul 7 von Tisch Reihe 1, Ost | 40–44° | Abstand logarithmisch 130 m auf 0,5 m, Elevation auf 47° |
 | 00:10,8–00:12,4 | Makro | 44° | 0,5 m über Glas, folgt dem Punkt entlang eines Busbars |
-| 00:12,4–00:13,6 | Aufzug | 44° auf 40° | 0,44 m auf 48 m, Schwenk Richtung Station |
+| 00:12,4–00:13,6 | Aufzug | 44° auf 40° | 0,44 m auf 48 m, Ziel bleibt bis 00:13,0 auf dem Datenpunkt, dann Schwenk Richtung Station |
 | 00:13,6–00:15,0 | Anflug Station | 40° | auf 4,6 m vor die Tür, Elevation 9° |
 | 01:10,6–01:11,4 | Draufblick | 30° | 640 m senkrecht, Norden oben, deckungsgleich mit Lageplan |
 | 01:11,4–01:20,0 | Kippen ins Schrägluftbild | 30° auf 38° | Elevation 90° auf 23°, Ziel Speicherfläche |

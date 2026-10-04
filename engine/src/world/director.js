@@ -46,7 +46,17 @@ export class Director {
       const tg = H.pointAt(this.heroLen(Math.max(10.75, t - 0.05))).toArray();
       const a = (this.mAz(t) * Math.PI) / 180, e = (this.mEl(t) * Math.PI) / 180, dd = this.mDist(t);
       s = { target: tg, pos: [tg[0] + Math.sin(a) * Math.cos(e) * dd, tg[1] + Math.sin(e) * dd, tg[2] + Math.cos(a) * Math.cos(e) * dd], fov: macro.fov, dist: dd };
-    } else if (t < 50) s = this.shotB(t);
+    } else if (t < 50) {
+      s = this.shotB(t);
+      // Aufzug: Ziel bleibt zunächst auf dem Datenpunkt, dann Übergang in den Überblick
+      if (t < 13.6) {
+        const head = this.data.hero.pointAt(this.heroLen(t)).toArray();
+        const k = smooth(12.95, 13.6, t);
+        const tg = head.map((v, i) => lerp(v, s.target[i], k));
+        const off = s.pos.map((v, i) => v - s.target[i]);
+        s = { ...s, target: tg, pos: tg.map((v, i) => v + off[i]) };
+      }
+    }
     else if (t < 80.0) s = shotC(t);
     else s = shotD(t);
     if (t < 50) w.setSun(54, 145); else w.setSun(31, 222);
