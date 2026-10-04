@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>ip³ Erklärvideo · Render-Stage</title>
+<style>
+  @font-face{font-family:"Libre Franklin";font-weight:400;src:url(assets/fonts/LibreFranklin-Regular.ttf) format("truetype");}
+  @font-face{font-family:"Libre Franklin";font-weight:600;src:url(assets/fonts/LibreFranklin-SemiBold.ttf) format("truetype");}
+  @font-face{font-family:"Libre Franklin";font-weight:700;src:url(assets/fonts/LibreFranklin-Bold.ttf) format("truetype");}
+  @font-face{font-family:"Libre Franklin";font-weight:800;src:url(assets/fonts/LibreFranklin-ExtraBold.ttf) format("truetype");}
+  @font-face{font-family:"Space Grotesk";font-weight:500;src:url(assets/fonts/SpaceGrotesk-Medium.ttf) format("truetype");}
+  @font-face{font-family:"Space Grotesk";font-weight:700;src:url(assets/fonts/SpaceGrotesk-Bold.ttf) format("truetype");}
+  :root{
+    --navy:#0C1A3D; --blau:#2F2482; --rot:#8D0C07; --akzent:#C83C30; --hell:#E8E7EF; --weiss:#FFFFFF;
+    --lav:#8D8AB8; --lachs:#E8A49C;
+    --head:"Libre Franklin",Arial,Helvetica,sans-serif;
+    --zahl:"Space Grotesk","Libre Franklin",Arial,sans-serif;
+  }
+  html,body{margin:0;padding:0;background:#000;overflow:hidden;}
+  #stage{position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--navy);
+         transform-origin:0 0;font-family:var(--head);color:#fff;-webkit-font-smoothing:antialiased;}
+  #gl{position:absolute;left:0;top:0;width:1920px;height:1080px;display:block;}
+  #ov{position:absolute;inset:0;}
+  .abs{position:absolute;}
+  .num{font-family:var(--zahl);font-variant-numeric:tabular-nums;}
+</style>
+<script type="importmap">
+{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}
+</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl" width="1920" height="1080"></canvas>
+  <div id="ov"></div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

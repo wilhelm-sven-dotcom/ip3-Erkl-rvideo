@@ -1,0 +1,275 @@
+{
+ "fps": 30,
+ "duration": 90.0,
+ "bpm": 96,
+ "scenes": [
+  {
+   "n": 1,
+   "title": "Sonne da. Leistung weg.",
+   "start": 0,
+   "end": 10
+  },
+  {
+   "n": 2,
+   "title": "Die Daten werden verbunden",
+   "start": 10,
+   "end": 22.5
+  },
+  {
+   "n": 3,
+   "title": "Wer greift ein?",
+   "start": 22.5,
+   "end": 37.5
+  },
+  {
+   "n": 4,
+   "title": "Die entgangene Energie wird sichtbar",
+   "start": 37.5,
+   "end": 52.5
+  },
+  {
+   "n": 5,
+   "title": "Abrechnungen auf dem Prüfstand",
+   "start": 52.5,
+   "end": 65
+  },
+  {
+   "n": 6,
+   "title": "Betrieb begleiten. Potenziale bewerten.",
+   "start": 65,
+   "end": 80
+  },
+  {
+   "n": 7,
+   "title": "Abschluss und Kontakt",
+   "start": 80,
+   "end": 90
+  }
+ ],
+ "vo": [
+  {
+   "id": "L01",
+   "scene": 1,
+   "text": "Die Sonne scheint.",
+   "start": 1.2,
+   "end": 1.966
+  },
+  {
+   "id": "L02",
+   "scene": 1,
+   "text": "Trotzdem sinkt die Leistung.",
+   "start": 2.45,
+   "end": 3.897
+  },
+  {
+   "id": "L03",
+   "scene": 1,
+   "text": "Wer regelt Ihren Solarpark?",
+   "start": 5.0,
+   "end": 6.38
+  },
+  {
+   "id": "L04",
+   "scene": 1,
+   "text": "Und was kostet Sie das?",
+   "start": 6.75,
+   "end": 7.96
+  },
+  {
+   "id": "L05",
+   "scene": 1,
+   "text": "Die Antwort steckt in Ihren Betriebsdaten.",
+   "start": 8.9,
+   "end": 11.064
+  },
+  {
+   "id": "L06",
+   "scene": 2,
+   "text": "Wir installieren einen Rechner im Solarpark.",
+   "start": 11.7,
+   "end": 13.866
+  },
+  {
+   "id": "L07",
+   "scene": 2,
+   "text": "Er liest Steuerung, Fernwirktechnik, Datenlogger und Einstrahlungssensor aus.",
+   "start": 14.6,
+   "end": 19.246
+  },
+  {
+   "id": "L08",
+   "scene": 2,
+   "text": "Unsere Software bündelt alles in einem Dashboard.",
+   "start": 19.8,
+   "end": 22.268
+  },
+  {
+   "id": "L09",
+   "scene": 3,
+   "text": "So sehen Sie, wer eingreift.",
+   "start": 23.0,
+   "end": 24.782
+  },
+  {
+   "id": "L10",
+   "scene": 3,
+   "text": "Hier regelt der Direktvermarkter ab.",
+   "start": 25.3,
+   "end": 26.99
+  },
+  {
+   "id": "L11",
+   "scene": 3,
+   "text": "Dort der Netzbetreiber, im Rahmen von Redispatch.",
+   "start": 28.6,
+   "end": 31.21
+  },
+  {
+   "id": "L12",
+   "scene": 3,
+   "text": "Wir verknüpfen jede Vorgabe mit der tatsächlichen Leistung.",
+   "start": 31.9,
+   "end": 35.03
+  },
+  {
+   "id": "L13",
+   "scene": 3,
+   "text": "So wird die Ursache nachvollziehbar.",
+   "start": 35.4,
+   "end": 37.283
+  },
+  {
+   "id": "L14",
+   "scene": 4,
+   "text": "Doch was hätte Ihre Anlage erzeugen können?",
+   "start": 38.1,
+   "end": 40.14
+  },
+  {
+   "id": "L15",
+   "scene": 4,
+   "text": "Ein Sensor im Park misst, wie viel Sonne ankommt.",
+   "start": 40.9,
+   "end": 43.813
+  },
+  {
+   "id": "L16",
+   "scene": 4,
+   "text": "Mit den Anlagendaten berechnen wir die mögliche Leistung ohne Abregelung.",
+   "start": 44.4,
+   "end": 48.298
+  },
+  {
+   "id": "L17",
+   "scene": 4,
+   "text": "Die Fläche zwischen beiden Kurven ist die entgangene Energie.",
+   "start": 49.1,
+   "end": 52.169
+  },
+  {
+   "id": "L18",
+   "scene": 5,
+   "text": "Diese Werte gleichen wir mit Ihren Abrechnungen ab.",
+   "start": 52.85,
+   "end": 55.038
+  },
+  {
+   "id": "L19a",
+   "scene": 5,
+   "text": "Direktvermarktung.",
+   "start": 55.45,
+   "end": 56.469
+  },
+  {
+   "id": "L19b",
+   "scene": 5,
+   "text": "Marktprämie.",
+   "start": 56.8,
+   "end": 57.57
+  },
+  {
+   "id": "L19c",
+   "scene": 5,
+   "text": "Ausfallenergie.",
+   "start": 57.9,
+   "end": 58.911
+  },
+  {
+   "id": "L20",
+   "scene": 5,
+   "text": "Abweichungen werden sichtbar.",
+   "start": 59.4,
+   "end": 60.935
+  },
+  {
+   "id": "L21",
+   "scene": 5,
+   "text": "Und Sie haben die Nachweise, um mögliche Ausgleichsansprüche zu prüfen.",
+   "start": 61.25,
+   "end": 65.085
+  },
+  {
+   "id": "L22",
+   "scene": 6,
+   "text": "Auf Wunsch übernehmen wir auch die technische Betriebsführung.",
+   "start": 65.6,
+   "end": 68.599
+  },
+  {
+   "id": "L23",
+   "scene": 6,
+   "text": "Und wir beraten Sie persönlich.",
+   "start": 69.5,
+   "end": 71.165
+  },
+  {
+   "id": "L24",
+   "scene": 6,
+   "text": "Passt Ihre Direktvermarktung zur Anlage?",
+   "start": 71.6,
+   "end": 73.617
+  },
+  {
+   "id": "L25",
+   "scene": 6,
+   "text": "Gibt es Verbesserungspotenzial?",
+   "start": 74.0,
+   "end": 75.622
+  },
+  {
+   "id": "L26",
+   "scene": 6,
+   "text": "Könnte sich ein zusätzlicher Speicher rechnen?",
+   "start": 76.0,
+   "end": 78.198
+  },
+  {
+   "id": "L27",
+   "scene": 6,
+   "text": "Das prüfen wir individuell.",
+   "start": 78.55,
+   "end": 80.02
+  },
+  {
+   "id": "L28",
+   "scene": 7,
+   "text": "Verstehen, was Ihre Anlage leistet.",
+   "start": 80.9,
+   "end": 83.077
+  },
+  {
+   "id": "L29",
+   "scene": 7,
+   "text": "Erkennen, was in ihr steckt.",
+   "start": 83.4,
+   "end": 84.847
+  },
+  {
+   "id": "L30",
+   "scene": 7,
+   "text": "Lassen Sie uns Ihren Solarpark genauer ansehen.",
+   "start": 85.9,
+   "end": 88.429
+  }
+ ]
+}

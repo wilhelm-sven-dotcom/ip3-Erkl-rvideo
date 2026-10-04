@@ -1,0 +1,292 @@
+[
+ {
+  "id": "L01",
+  "scene": 1,
+  "text": "Die Sonne scheint.",
+  "dur": 0.766,
+  "asr": "Die Sonne scheint",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L02",
+  "scene": 1,
+  "text": "Trotzdem sinkt die Leistung.",
+  "dur": 1.447,
+  "asr": "Trotz dem sinkt die Leistung",
+  "score": 0.982,
+  "take": 2
+ },
+ {
+  "id": "L03",
+  "scene": 1,
+  "text": "Wer regelt Ihren Solarpark?",
+  "dur": 1.38,
+  "asr": "Wer regelt ihren Solarpark?",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L04",
+  "scene": 1,
+  "text": "Und was kostet Sie das?",
+  "dur": 1.21,
+  "asr": "Und was kostet sie das?",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L05",
+  "scene": 1,
+  "text": "Die Antwort steckt in Ihren Betriebsdaten.",
+  "dur": 2.164,
+  "asr": "die Antwort steckt in ihren Betriebsdaten.",
+  "score": 1.0,
+  "take": 1
+ },
+ {
+  "id": "L06",
+  "scene": 2,
+  "text": "Wir installieren einen Rechner im Solarpark.",
+  "dur": 2.166,
+  "asr": "Wir installieren einen Rechner im Solarpark.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L07",
+  "scene": 2,
+  "text": "Er liest Steuerung, Fernwirktechnik, Datenlogger und Einstrahlungssensor aus.",
+  "tts": "Er liest Steuerung, Fernwirktechnik, Datenlogger und Einstrahlungs-Sensor aus.",
+  "dur": 4.646,
+  "asr": "Er liest Steuerung, Fernwerktechnik, Datenlogger und Einstrahlungssensor aus.",
+  "score": 0.986,
+  "take": 4
+ },
+ {
+  "id": "L08",
+  "scene": 2,
+  "text": "Unsere Software bündelt alles in einem Dashboard.",
+  "dur": 2.468,
+  "asr": "Unsere Software bündelt alles in einem Dashboard.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L09",
+  "scene": 3,
+  "text": "So sehen Sie, wer eingreift.",
+  "dur": 1.782,
+  "asr": "So sehen Sie, wer eingreift.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L10",
+  "scene": 3,
+  "text": "Hier regelt der Direktvermarkter ab.",
+  "dur": 1.69,
+  "asr": "Hier regelt der Direktvermarkter ab",
+  "score": 1.0,
+  "take": 3
+ },
+ {
+  "id": "L11",
+  "scene": 3,
+  "text": "Dort der Netzbetreiber, im Rahmen von Redispatch.",
+  "tts": "Dort der Netzbetreiber, im Rahmen von Redispätsch.",
+  "dur": 2.61,
+  "asr": "Dort der Netzbetreiber im Rahmen von Redis Patch.",
+  "score": 0.989,
+  "take": 0
+ },
+ {
+  "id": "L12",
+  "scene": 3,
+  "text": "Wir verknüpfen jede Vorgabe mit der tatsächlichen Leistung.",
+  "dur": 3.13,
+  "asr": "Wir verknüpfen jede Vorgabe mit der tatsächlichen Leistung.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L13",
+  "scene": 3,
+  "text": "So wird die Ursache nachvollziehbar.",
+  "dur": 1.883,
+  "asr": "So wird die Ursache nachvollziehbar.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L14",
+  "scene": 4,
+  "text": "Doch was hätte Ihre Anlage erzeugen können?",
+  "dur": 2.04,
+  "asr": "doch was hätte ihre Anlage erzeugen können?",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L15",
+  "scene": 4,
+  "text": "Ein Sensor im Park misst, wie viel Sonne ankommt.",
+  "dur": 2.913,
+  "asr": "Ein Sensor im Park misst, wie viel Sonne ankommt.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L16",
+  "scene": 4,
+  "text": "Mit den Anlagendaten berechnen wir die mögliche Leistung ohne Abregelung.",
+  "dur": 3.898,
+  "asr": "Mit den Anlagendaten berechnen wir die mögliche Leistung ohne Abregelung.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L17",
+  "scene": 4,
+  "text": "Die Fläche zwischen beiden Kurven ist die entgangene Energie.",
+  "dur": 3.069,
+  "asr": "Die Fläche zwischen beiden Kurven ist die entgangene Energie.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L18",
+  "scene": 5,
+  "text": "Diese Werte gleichen wir mit Ihren Abrechnungen ab.",
+  "dur": 2.188,
+  "asr": "Diese Werte gleichen wir mit ihren Abrechnungen ab.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L19a",
+  "scene": 5,
+  "text": "Direktvermarktung.",
+  "dur": 1.019,
+  "asr": "Direkt vermarktung.",
+  "score": 0.971,
+  "take": 0
+ },
+ {
+  "id": "L19b",
+  "scene": 5,
+  "text": "Marktprämie.",
+  "dur": 0.77,
+  "asr": "Marktprämie",
+  "score": 1.0,
+  "take": 1
+ },
+ {
+  "id": "L19c",
+  "scene": 5,
+  "text": "Ausfallenergie.",
+  "dur": 1.011,
+  "asr": "Ausfallenergie.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L20",
+  "scene": 5,
+  "text": "Abweichungen werden sichtbar.",
+  "dur": 1.535,
+  "asr": "Abweichungen werden sichtbar.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L21",
+  "scene": 5,
+  "text": "Und Sie haben die Nachweise, um mögliche Ausgleichsansprüche zu prüfen.",
+  "dur": 3.835,
+  "asr": "und sie haben die Nachweise, um mögliche Ausgleichsansprüche zu prüfen.",
+  "score": 1.0,
+  "take": 2
+ },
+ {
+  "id": "L22",
+  "scene": 6,
+  "text": "Auf Wunsch übernehmen wir auch die technische Betriebsführung.",
+  "dur": 2.999,
+  "asr": "Auf Wunsch übernehmen wir auch die technische Betriebsführung.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L23",
+  "scene": 6,
+  "text": "Und wir beraten Sie persönlich.",
+  "dur": 1.665,
+  "asr": "und wir beraten sie persönlich.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L24",
+  "scene": 6,
+  "text": "Passt Ihre Direktvermarktung zur Anlage?",
+  "dur": 2.017,
+  "asr": "Passt Ihre Direktvermarktung zur Anlage?",
+  "score": 1.0,
+  "take": 1
+ },
+ {
+  "id": "L25",
+  "scene": 6,
+  "text": "Gibt es Verbesserungspotenzial?",
+  "dur": 1.622,
+  "asr": "gibt es Verbesserungspotenzial",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L26",
+  "scene": 6,
+  "text": "Könnte sich ein zusätzlicher Speicher rechnen?",
+  "dur": 2.198,
+  "asr": "könnte sich ein zusätzlicher Speicher rechnen.",
+  "score": 1.0,
+  "take": 2
+ },
+ {
+  "id": "L27",
+  "scene": 6,
+  "text": "Das prüfen wir individuell.",
+  "dur": 1.47,
+  "asr": "Das prüfen wir individuell.",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L28",
+  "scene": 7,
+  "text": "Verstehen, was Ihre Anlage leistet.",
+  "dur": 2.177,
+  "asr": "Verstehen, was Ihre Anlage leistet.",
+  "score": 1.0,
+  "take": 2
+ },
+ {
+  "id": "L29",
+  "scene": 7,
+  "text": "Erkennen, was in ihr steckt.",
+  "dur": 1.447,
+  "asr": "Erkennen was in ihr steckt",
+  "score": 1.0,
+  "take": 0
+ },
+ {
+  "id": "L30",
+  "scene": 7,
+  "text": "Lassen Sie uns Ihren Solarpark genauer ansehen.",
+  "dur": 2.529,
+  "asr": "Lassen Sie uns Ihren Solarpark genauer ansehen.",
+  "score": 1.0,
+  "take": 0
+ }
+]

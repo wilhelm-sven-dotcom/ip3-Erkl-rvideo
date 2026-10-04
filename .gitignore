@@ -1,0 +1,8 @@
+node_modules/
+engine/node_modules/
+engine/test/
+out/
+audio/vo_test/
+audio/out/
+*.log
+__pycache__/

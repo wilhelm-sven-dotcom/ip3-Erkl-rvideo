@@ -1,0 +1,17 @@
+{
+  "name": "ip3-erklaervideo-engine",
+  "version": "1.0.0",
+  "description": "Render-Stage des ip³ Erklärvideos (Three.js + HTML/SVG, Frame-Capture über Playwright)",
+  "scripts": {
+    "stills": "node ../render/render.mjs --times 3.5,18.5,31,51,62.5,77.8,84.3,88.5 --q 0.5 --out ../out/stills"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

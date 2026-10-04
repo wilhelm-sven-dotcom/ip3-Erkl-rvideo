@@ -1,0 +1,40 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: UT,Libre Franklin SemiBold,40,&H00FFFFFF,&H00FFFFFF,&H3C3D1A0C,&H3C3D1A0C,0,0,0,0,100,100,0,0,3,14,0,2,200,200,42,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.20,0:00:02.40,UT,,0,0,0,,Die Sonne scheint.
+Dialogue: 0,0:00:02.45,0:00:04.15,UT,,0,0,0,,Trotzdem sinkt die Leistung.
+Dialogue: 0,0:00:05.00,0:00:06.63,UT,,0,0,0,,Wer regelt Ihren Solarpark?
+Dialogue: 0,0:00:06.75,0:00:08.21,UT,,0,0,0,,Und was kostet Sie das?
+Dialogue: 0,0:00:08.90,0:00:11.31,UT,,0,0,0,,Die Antwort steckt in Ihren Betriebsdaten.
+Dialogue: 0,0:00:11.70,0:00:14.12,UT,,0,0,0,,Wir installieren einen\NRechner im Solarpark.
+Dialogue: 0,0:00:14.60,0:00:19.50,UT,,0,0,0,,Er liest Steuerung, Fernwirktechnik,\NDatenlogger und Einstrahlungssensor aus.
+Dialogue: 0,0:00:19.80,0:00:22.52,UT,,0,0,0,,Unsere Software bündelt\Nalles in einem Dashboard.
+Dialogue: 0,0:00:23.00,0:00:25.03,UT,,0,0,0,,So sehen Sie, wer eingreift.
+Dialogue: 0,0:00:25.30,0:00:27.24,UT,,0,0,0,,Hier regelt der Direktvermarkter ab.
+Dialogue: 0,0:00:28.60,0:00:31.46,UT,,0,0,0,,Dort der Netzbetreiber,\Nim Rahmen von Redispatch.
+Dialogue: 0,0:00:31.90,0:00:35.28,UT,,0,0,0,,Wir verknüpfen jede Vorgabe\Nmit der tatsächlichen Leistung.
+Dialogue: 0,0:00:35.40,0:00:37.53,UT,,0,0,0,,So wird die Ursache nachvollziehbar.
+Dialogue: 0,0:00:38.10,0:00:40.39,UT,,0,0,0,,Doch was hätte Ihre\NAnlage erzeugen können?
+Dialogue: 0,0:00:40.90,0:00:44.06,UT,,0,0,0,,Ein Sensor im Park misst,\Nwie viel Sonne ankommt.
+Dialogue: 0,0:00:44.40,0:00:48.55,UT,,0,0,0,,Mit den Anlagendaten berechnen wir\Ndie mögliche Leistung ohne Abregelung.
+Dialogue: 0,0:00:49.10,0:00:52.42,UT,,0,0,0,,Die Fläche zwischen beiden Kurven\Nist die entgangene Energie.
+Dialogue: 0,0:00:52.85,0:00:55.29,UT,,0,0,0,,Diese Werte gleichen wir\Nmit Ihren Abrechnungen ab.
+Dialogue: 0,0:00:55.45,0:00:59.16,UT,,0,0,0,,Direktvermarktung.\NMarktprämie. Ausfallenergie.
+Dialogue: 0,0:00:59.40,0:01:01.19,UT,,0,0,0,,Abweichungen werden sichtbar.
+Dialogue: 0,0:01:01.25,0:01:05.33,UT,,0,0,0,,Und Sie haben die Nachweise,\Num mögliche Ausgleichsansprüche zu prüfen.
+Dialogue: 0,0:01:05.60,0:01:08.85,UT,,0,0,0,,Auf Wunsch übernehmen wir auch\Ndie technische Betriebsführung.
+Dialogue: 0,0:01:09.50,0:01:11.42,UT,,0,0,0,,Und wir beraten Sie persönlich.
+Dialogue: 0,0:01:11.60,0:01:13.87,UT,,0,0,0,,Passt Ihre Direktvermarktung zur Anlage?
+Dialogue: 0,0:01:14.00,0:01:15.87,UT,,0,0,0,,Gibt es Verbesserungspotenzial?
+Dialogue: 0,0:01:16.00,0:01:18.45,UT,,0,0,0,,Könnte sich ein zusätzlicher\NSpeicher rechnen?
+Dialogue: 0,0:01:18.55,0:01:20.27,UT,,0,0,0,,Das prüfen wir individuell.
