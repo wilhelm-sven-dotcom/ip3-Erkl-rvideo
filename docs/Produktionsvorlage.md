@@ -3,7 +3,7 @@
 Produktionsvorlage für ein 90-Sekunden-Werbe- und Erklärvideo der ip³ Energietechnik GmbH.
 Hauptformat 16:9 (1920 × 1080, 30 fps), deutsch, Sie-Form, mit Untertiteln auch ohne Ton verständlich.
 
-Zu dieser Vorlage gehört ein fertig gerenderter Film (`output/`). Er ist eine vollständige Fassung mit ElevenLabs-Stimme, KI-generierten Fotoplatten als Außenbildern und selbst erzeugter Layout-Musik. Bild, Timing, Texte und Untertitel sind final abstimmbar. Vor der Veröffentlichung sind die Musik zu ersetzen und die Nutzungsrechte von Stimme und Bildern zu prüfen (Abschnitt 6).
+Zu dieser Vorlage gehört ein fertig gerenderter Film (`output/`). Er ist eine vollständige Fassung mit ElevenLabs-Stimme, KI-generierten Fotoplatten als Außenbildern und dem Musiktitel „Technology“ von verclub (Pixabay). Bild, Timing, Texte und Untertitel sind final abstimmbar. Vor der Veröffentlichung sind die Nutzungsrechte von Stimme, Musik und Bildern zu prüfen (Abschnitt 6).
 
 Inhalt
 
@@ -199,6 +199,7 @@ Navy-Fläche. Zeichen 3 (Datei `zeichen-3-kontur-akzent.png`) mit 120 % Bildhöh
 ## 6. Ton, Sprecher, Untertitel
 
 * **Stimme:** ElevenLabs, Alexander (Deep TV Narrator), Modell eleven_multilingual_v2, Tempo 0,95, satzweise erzeugt (audio/elevenlabs_saetze.mjs), auf Sprechanteil geschnitten und in engine/src/cues.json eingetaktet. Die Thorsten-Layoutstimme (CC0) liegt als Rückfallebene in audio/vo_layout/.
+* **Musik:** „Technology“ von verclub (Pixabay, ID 550887), 140 BPM. Schnitt auf Taktgrenzen: Original 0 bis 82,3 s durchgehend, dann die letzten zwei Outro-Takte und der Schlussschlag (Original ab 120,0 s). Der Break liegt damit unter der Abrechnungsprüfung (56,6 bis 63,4 s), der Wiedereinstieg auf dem Wechsel zu Szene 6, der Schlussschlag bei 85,7 s unter der Endkarte. Musik −24,5 LUFS vor Ducking, Ducking −9 dB unter Sprache.
 * **Fotoplatten:** Eröffnung (0 bis 9 s), Speicher-Szenario (71 bis 81 s) und Schlussbild (80 bis 85 s) nutzen KI-generierte Landschaftsbilder, gekennzeichnet als „Symbolbild“. Der Speicher wird als Strichmodell auf die Schotterfläche gezeichnet und ist als schematisch, Lage und Größe beispielhaft beschriftet.
 * **Layout-Musik:** selbst synthetisiert, 96 BPM (ein Takt = 2,5 s, 36 Takte), d-Moll mit Auflösung nach F-Dur im Abbinder. Szenenwechsel liegen auf Taktgrenzen (10,0 / 22,5 / 37,5 / 52,5 / 65,0 / 80,0 s). Unter der Stimme wird die Musik um 8 dB abgesenkt.
 * **Soundeffekte:** zurückhaltend, an Datenbewegungen gekoppelt (Punkt zündet 00:10,9, Ankunft Station 00:14,0, Geräte 00:15,2 bis 00:18,0, Eingriffe 00:25,4 und 00:28,7, Prüfhaken, Abweichung 00:58,4, Abbinder 01:25,0).

@@ -13,7 +13,7 @@
 | `docs/Produktionsvorlage.md` | Leitmotiv, Sprechertext, Storyboard, Produktionsanweisungen und Prompts, Assetliste, 9:16-Hinweise, Beispieldaten |
 | `docs/storyboard/` | Standbilder je Storyboard-Einstellung |
 
-Der Film ist vollständig produziert. Die Stimme stammt aus ElevenLabs (Alexander, Deep TV Narrator, eleven_multilingual_v2; Nutzungsrechte gemäß ElevenLabs-Abo prüfen). Die frühere Thorsten-Layoutstimme liegt in audio/vo_layout/. Die Musik ist eine selbst synthetisierte Layout-Fassung. Außenbilder in Eröffnung, Speicher-Szenario und Schluss sind KI-generierte Fotoplatten (engine/assets/photos/, im Bild als Symbolbild gekennzeichnet). Alle Zahlen sind Beispieldaten, das Dashboard ist eine schematische Nachbildung; beides ist im Bild gekennzeichnet.
+Der Film ist vollständig produziert. Die Stimme stammt aus ElevenLabs (Alexander, Deep TV Narrator, eleven_multilingual_v2; Nutzungsrechte gemäß ElevenLabs-Abo prüfen). Die frühere Thorsten-Layoutstimme liegt in audio/vo_layout/. Musik: „Technology“ von verclub (Pixabay, ID 550887), auf 90 s geschnitten (audio/build_audio.py, M_EDIT). Lizenzbedingungen auf der Pixabay-Seite des Titels prüfen; ohne die Datei fällt das Skript auf die synthetische Layout-Musik zurück. Außenbilder in Eröffnung, Speicher-Szenario und Schluss sind KI-generierte Fotoplatten (engine/assets/photos/, im Bild als Symbolbild gekennzeichnet). Alle Zahlen sind Beispieldaten, das Dashboard ist eine schematische Nachbildung; beides ist im Bild gekennzeichnet.
 
 ## Aufbau des Projekts
 

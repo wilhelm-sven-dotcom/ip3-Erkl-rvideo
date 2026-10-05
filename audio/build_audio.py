@@ -395,14 +395,46 @@ def lufs(x):
     return meter.integrated_loudness(x)
 
 
+# Musiktitel: Pixabay, verclub, "Technology" (ID 550887), 140 BPM. Schnitt auf Taktgrenzen:
+# Takt 0 bis 48 durchgehend, dann Sprung in die letzten zwei Outro-Takte und den Schlussschlag.
+MUSIC_FILE = os.path.join(HERE, 'music', 'verclub_technology_550887.mp3')
+M_BAR = 4 * 60 / 140
+M_GRID = 0.015
+M_EDIT = [(0, 48), (70, 76)]  # Taktbereiche des Originals in Abspielreihenfolge
+
+
+def load_music():
+    import subprocess, tempfile
+    with tempfile.NamedTemporaryFile(suffix='.wav') as tmp:
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', MUSIC_FILE, '-ar', str(SR), '-ac', '2', tmp.name], check=True)
+        x, _ = sf.read(tmp.name)
+    out = np.zeros((N, 2))
+    pos, xf = 0, int(0.03 * SR)
+    for i, (b0, b1) in enumerate(M_EDIT):
+        a = int((M_GRID + b0 * M_BAR) * SR) if b0 else 0
+        z = min(len(x), int((M_GRID + b1 * M_BAR) * SR))
+        seg = x[a:z].copy()
+        if i:  # kurze Überblendung auf dem Taktschlag
+            pos -= xf
+            seg[:xf] *= np.linspace(0, 1, xf)[:, None]
+            out[pos:pos + xf] *= np.linspace(1, 0, xf)[:, None]
+        n = min(len(seg), N - pos)
+        out[pos:pos + n] += seg[:n]
+        pos += n
+    return out
+
+
 def main():
     print('Musik ...')
-    pad = build_pad()
-    sub = build_sub()
-    arp = build_arp()
-    drums = build_drums()
-    music = pad * db(-4) + sub * db(-6) + arp * db(-3) + drums * db(-5)
-    music = reverb(music, 0.22)
+    if os.path.exists(MUSIC_FILE):
+        music = load_music()
+    else:  # Layout-Musik (synthetisch)
+        pad = build_pad()
+        sub = build_sub()
+        arp = build_arp()
+        drums = build_drums()
+        music = pad * db(-4) + sub * db(-6) + arp * db(-3) + drums * db(-5)
+        music = reverb(music, 0.22)
     print('SFX ...')
     sfx = reverb(build_sfx(), 0.3)
     print('Sprecher ...')
